@@ -1,4 +1,5 @@
 import './App.css';
+import Weather from "./Weather";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Find the weather of your city🔎🔎</h1>
       </header>
+      <Weather/>
     </div>
   );
 }
