@@ -41,7 +41,7 @@ export default function Weather() {
         {Form}
         <ul className="showMe">
           <li>Temperature :{Math.round(temperature)} °C</li>
-          <li>Wind : {Math.round(wind)} km/h</li>
+          <li>Wind : {Math.round(wind)} Km/h</li>
           <li>Description :{description}</li>
           <li>Humidity :{Math.round(humidity)} %</li>
           <li>
